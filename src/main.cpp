@@ -491,7 +491,7 @@ void CheckpointSwitcher::switchCheckpoint(int i) {
 		this->index = i;
 	}
 
-	std::cout << this->index << std::endl;
+	//std::cout << this->index << std::endl;
 
 	if (!Mod::get()->getSettingValue<bool>("switch-after-reset")) {
 		playLayer->resetLevel();
